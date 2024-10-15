@@ -12,6 +12,6 @@ namespace WCFSelfHostedServiceConsoleApp.Services
     public interface IComisionCalculator
     {
         [OperationContract]
-        void DoWork();
+        decimal CalculateFee(decimal price);
     }
 }
